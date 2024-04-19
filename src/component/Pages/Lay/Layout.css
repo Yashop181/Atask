@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.nav-items 
+{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: black;
+    padding: 10px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+}
+.nav-items a:hover
+{
+    color: blueviolet;
+}

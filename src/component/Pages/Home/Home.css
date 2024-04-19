@@ -1,0 +1,166 @@
+/* Home.css */
+
+.card {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  .row
+  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+  .card-buttons
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+
+
+.iconwish
+{
+    font-size: 16px;
+}
+.catogr
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.containe button
+{
+    display: flex;
+}
+
+
+  .categ button
+  {
+    
+    background-color: rgb(243, 51, 51);
+    border: 1px solid rgb(11, 11, 11);
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+  }
+
+  .containex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  
+  .category button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff; 
+    font-size: 16px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  .category button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .addtocart {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addtowish {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; 
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addtocart:hover {
+    background-color: #0056b3;
+  }
+  
+  .addtowish:hover {
+    background-color: #218838; 
+  }
+  @media(max-width: 946px)
+  {
+    .row
+    {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     
+    }
+  }
+  @media(max-width: 632px)
+  {
+    .row
+    {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+     
+    }
+  }
+
+  @media(max-width: 553px)
+  {
+    .containex {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      
+    }
+    .category
+    {
+      margin-bottom: 10px;
+    }
+    
+  }
+
